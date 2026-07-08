@@ -173,6 +173,7 @@ th{
 .table{
     border-collapse: collapse;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .st{
@@ -183,6 +184,65 @@ th{
 
 #th1{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
+.pricing{
+    text-align: center;
+    background-color: #e8f1b1;
+    padding-top: 30px;
+}
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+    gap: 160px;
+    margin-top: 30px;
+}
+
+
+.price-card{
+    background-color: rgb(226, 167, 125);
+    border-radius: 20px;
+    padding: 25px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+ .price-card h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+ 
+ .price-card button{
+    margin-top: auto;
+    margin-left: 40px;
+    background-color: rgb(108, 238, 231);
+
+    
+}
+
+.price-card button:hover{
+    background-color: rgb(245, 132, 132);
+}
+
+.price-card h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: xx-large;
+}
+.price-card li{
+    text-align: left;
+    margin-top: 10px;
+    font-size: large;
+    list-style: none;
+    
+}
+
+.price-card li::before{
+    content: "✓ ";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
