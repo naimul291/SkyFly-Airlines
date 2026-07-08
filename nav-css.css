@@ -321,3 +321,60 @@ th{
 .request button:hover{
     background-color: #a095ff;
 }
+
+.login{
+    background-color: rgb(194, 128, 255);
+    height: 723px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-1{
+    text-align: left;
+    background-color: #e8f1b1;
+    width: 350px;
+    padding: 30px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.login-2{
+    margin-bottom:15px;
+}
+.login-1 h1{
+    text-align: center;
+}
+.login-1 input{
+    width:100%;
+    padding:10px;
+}
+
+.login-1 button{
+    width:100%;
+    padding:10px;
+    background:brown;
+    color:white;
+    border:none;
+    border-radius:3px;
+    margin-left: 10px;
+}
+
+.footer{
+    background-color: rgb(190, 255, 190);
+    text-align: center;
+    height: auto;
+}
+.footer img{
+    height: 50px;
+    width: 110px;
+    padding: 10px;
+}
+
+.footer p{
+    padding: 30px;
+}
