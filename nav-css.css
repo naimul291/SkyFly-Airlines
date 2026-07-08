@@ -324,11 +324,10 @@ th{
 
 .login{
     background-color: rgb(194, 128, 255);
-    height: 723px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .login-1{
@@ -377,4 +376,24 @@ th{
 
 .footer p{
     padding: 30px;
+}
+
+.avb{
+    display: grid;
+    grid-template-rows: repeat(6);
+    justify-content: center;
+    
+}
+
+.avb-1{
+    background-color: #e8f1b1;
+}
+
+.avb-2{
+    background-color: rgb(255, 183, 183);
+    height: 100vh;
+    text-align: center;
+}
+.avb h1{
+    text-align: center;
 }
