@@ -250,8 +250,7 @@ th{
 
 .gallery{
     background-color: rgb(134, 179, 247);
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding:40px;
 }
 
 .gallery h1{
@@ -278,5 +277,47 @@ th{
     height: 320px;
     object-fit: cover;
     border-radius: 10px;
-    
+}
+
+.form{
+    background-color: rgb(255,193,148);
+    padding:40px;
+}
+
+.form h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.form-1{
+    display:grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap:30px;
+
+    width:800px;
+
+    margin:auto;
+}
+
+.left-form,
+.right-form{
+    display:flex;
+    flex-direction:column;
+}
+
+.request{
+    grid-column:1 / 3;
+
+    text-align:center;
+}
+
+.request textarea{
+    width:100%;
+    height:120px;
+}
+
+.request button:hover{
+    background-color: #a095ff;
 }
